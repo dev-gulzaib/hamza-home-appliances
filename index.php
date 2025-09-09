@@ -65,14 +65,15 @@
                                     New Arrivals!
                                 </h5>
                                 <h3 class="title-big">
-                                    Scandinavians<br/>
-                                    Collection
+                                    Esatto<br/>
+                                    Tumble Dryer
                                 </h3>
                                 <div class="price">
                                     Price from:
                                     <span class="number-price">
-                                       $<?php echo number_format($row1['product_price'],2);?>
-                                   </span>
+                                       £ 220.00
+                                       <!-- £<?php echo number_format($row1['product_price'],2);?> -->
+                                   </span>plus delivery
                                </div>
                                <a href="Shop" class="button btn-shop-the-look bgroud-style">Shop now</a>
                            </div>
@@ -97,16 +98,17 @@
                     <div class="slider-inner equal-element">
                         <div class="slider-infor">
                             <h5 class="title-small">
-                                Table Supplies Sale!
+                                Villow!
                             </h5>
                             <h3 class="title-big">
-                                Up to <span>75%</span> <br/> Store Items
+                                Front Load <span>6kg</span> <br/> Washing Machine
                             </h3>
                             <div class="price">
                                 Price from:
                                 <span class="number-price">
-                                    $<?php echo number_format($row1['product_price'],2);?>
-                                </span>
+                                    <!-- $<?php echo number_format($row1['product_price'],2);?> -->
+                                    £ 245.00
+                                </span>plus delivery
                             </div>
                             <a href="Shop" class="button btn-shop-now">Shop now</a>
                         </div>
@@ -127,17 +129,18 @@
                 <div class="slider-inner equal-element">
                     <div class="slider-infor">
                         <h5 class="title-small">
-                            Table Supplies Sale!
+                            Vacuum Cleaner!
                         </h5>
                         <h3 class="title-big">
-                            Trending <br/>
-                            Collection
+                            Wet & Dry <span>60L</span><br/>
+                            Tank
                         </h3>
                         <div class="price">
                             Price from:
                             <span class="number-price">
-                                $<?php echo number_format($row1['product_price'],2);?>
-                            </span>
+                                £ 250.00
+                                <!-- $<?php echo number_format($row1['product_price'],2);?> -->
+                            </span>plus delivery
                         </div>
                         <a href="Shop" class="button btn-shop-now">Shop now</a>
                     </div>
@@ -158,22 +161,22 @@
     <div class="scent-scroll d-flex justify-content-start px-3">
       <!-- Repeat these blocks for each scent -->
       <div class="scent-card">
-        <img src="assets/images/f1.webp" alt="Aquatic">
-        <div class="scent-label"></div>
+        <img src="assets/images/esato.png" alt="Esatto">
+        <div class="scent-label">Esatto</div>
       </div>
       <div class="scent-card">
-        <img src="assets/images/f2.webp" alt="Aromatic">
-        <div class="scent-label">AROMATIC</div>
+        <img src="assets/images/vilow.jpg" alt="Willow">
+        <div class="scent-label">Willow</div>
       </div>
       <div class="scent-card">
-        <img src="assets/images/f3.webp" alt="Fruity">
-        <div class="scent-label">FRUITY</div>
+        <img src="assets/images/vaccum.jpg" alt="Vacuum">
+        <div class="scent-label">Vacuum Cleaner</div>
       </div>
       <div class="scent-card">
-        <img src="assets/images/f4.webp" alt="Green">
-        <div class="scent-label">GREEN</div>
+        <img src="assets/images/acces.jpg" alt="Accessories">
+        <div class="scent-label">Accessories</div>
       </div>
-      <div class="scent-card">
+      <!-- <div class="scent-card">
         <img src="assets/images/f5.webp" alt="Floral">
         <div class="scent-label">FLORAL</div>
       </div>
@@ -192,7 +195,7 @@
       <div class="scent-card">
         <img src="assets/images/f9.webp" alt="Woody">
         <div class="scent-label">WOODY</div>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -319,10 +322,10 @@
                             </div>
                             <div class="price">
                                 <del>
-                                    $<?php echo number_format($row1['product_old_price'],2);?>
+                                    £<?php echo number_format($row1['product_old_price'],2);?>
                                 </del>
                                 <ins>
-                                    $<?php echo number_format($row1['product_price'],2);?>
+                                    £<?php echo number_format($row1['product_price'],2);?>
                                 </ins>
                             </div>
                         </div>

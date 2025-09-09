@@ -140,9 +140,15 @@ if(isset($_POST['delbtn'])){
                     <tr>
                       <td><?php echo $id;?></td>
                       <td><?php echo $row['product_name'];?></td>
-                      <td>$<?php echo number_format($row['product_price'],2);?></td>
+                      <td>£<?php echo number_format($row['product_price'],2);?></td>
                       <td><?php echo $row222['cat_name'];?></td>
-                      <td><?php echo $row221['sub_cat_name'];?></td>
+                      <!-- <td>
+                        <?php echo $row221['sub_cat_name'];?>
+                      </td> -->
+
+
+                      <td><?php echo !empty($row221['sub_cat_name']) ? $row221['sub_cat_name'] : 'Null'; ?></td>
+
 
                       <td><?php echo $row['short_desc'];?></td>
                       <td><?php echo $row['p_status'];?></td>

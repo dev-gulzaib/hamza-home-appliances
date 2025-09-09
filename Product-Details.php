@@ -136,7 +136,7 @@ if (isset($_POST['add_to_Cart_btn'])) {
                                 <a href="#">in Stock</a>
                             </div>
                             <div class="price">
-                                <span>$<?php echo number_format($data['product_price'],2);?></span>
+                                <span>£<?php echo number_format($data['product_price'],2);?></span>
                             </div>
                             <div class="product-details-description">
                                 <ul>

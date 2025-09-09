@@ -144,7 +144,7 @@
     $result = mysqli_query($conn, $query);
     $data=mysqli_fetch_assoc($result);
 
-    echo '$'.number_format($data['amt'],2);
+    echo '£'.number_format($data['amt'],2);
      ?></p>
                 </div>
               </div>
