@@ -271,12 +271,12 @@ if (mysqli_num_rows($rztl1) > 0) {
                     </li>
 
 
-                    <li class="menu-item">
+                    <!-- <li class="menu-item">
                         <a href="#" class="stelina-menu-item-title"
                         title="Blogs">Blogs</a>
                         <span class="toggle-submenu"></span>
 
-                    </li>
+                    </li> -->
                     <li class="menu-item">
                         <a href="Contact" class="stelina-menu-item-title" title="About">Contact Us</a>
                     </li>
