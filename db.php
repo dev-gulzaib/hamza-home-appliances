@@ -1,5 +1,6 @@
 <?php
 $conn=mysqli_connect("localhost","root","","hamza_home_appliances");
+// $conn=mysqli_connect("localhost","thetownh_user","Townhouse54321*%$#@!","thetownh_hamza-home-appliances");
 
 // $conn=mysqli_connect("localhost","u624778084_perfuem","v3eM|2YM[","u624778084_perfuem");
 
