@@ -171,6 +171,10 @@
                                 <div class="scent-label">Esatto</div>
                             </div>
                             <div class="scent-card">
+                                <img src="assets/images/deluxe-heated.jpeg" alt="Heated Winged">
+                                <div class="scent-label">Heated Winged</div>
+                            </div>
+                            <div class="scent-card">
                                 <img src="assets/images/vilow.jpg" alt="Willow">
                                 <div class="scent-label">Willow</div>
                             </div>
@@ -181,6 +185,10 @@
                             <div class="scent-card">
                                 <img src="assets/images/acces.jpg" alt="Accessories">
                                 <div class="scent-label">Accessories</div>
+                            </div>
+                            <div class="scent-card">
+                                <img src="assets/images/black-decker-x-frame.jpg" alt="Black & Decker">
+                                <div class="scent-label">Black & Decker</div>
                             </div>
                             <!-- <div class="scent-card">
         <img src="assets/images/f5.webp" alt="Floral">
